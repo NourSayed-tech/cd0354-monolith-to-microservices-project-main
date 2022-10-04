@@ -15,7 +15,7 @@ spec:
         service: reverseproxy
     spec:
       containers:
-      - image: noursayed/udagram-reverseproxy:latest
+      - image: noursayed/udagram-reverseproxy:new
         name:  reverseproxy
         imagePullPolicy: Always               
         ports:
